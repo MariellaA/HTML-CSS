@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+div {
+    position: relative;
+    height: 50vh;
+}
+
+
+div:nth-of-type(1){
+    background: linear-gradient(to right, rgb(0, 79, 157), rgb(54, 201, 137));
+}
+
+div:nth-of-type(2) {
+    background: linear-gradient(to right, rgb(155, 40, 99), rgb(201, 123, 54));
+}
+
+section {
+    /* width: 300px; */
+    left: 42%;
+    display: block;
+    position: absolute;
+}
+
+.one > section {
+    height: 200px;
+    top: 30%;
+}
+
+.two > section {
+    height: 450px;
+    top: 5%;
+}
+
+
+img {
+    width: 250px;
+    position: absolute;
+}
+
+.one i {
+    color: white;
+    position: absolute;
+    top: 72%;
+    left: 225px;
+}
+
+.two i {
+    color: white;
+    position: absolute;
+    top: 78%;
+    left: 225px;
+}
