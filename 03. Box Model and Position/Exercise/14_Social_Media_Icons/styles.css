@@ -1,0 +1,43 @@
+ul {
+    display: inline-block;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 1em;
+}
+
+a {
+    text-decoration: none;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 0.5em;
+    border: 2px solid #efefef;
+    background-color: #efefef;
+    color: black;
+    /* box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); */
+    /* display: inline-block; */
+}
+
+a.facebook:hover {
+    color: rgb(48, 48, 248);
+}
+
+a.twitter:hover {
+    color: rgb(5, 141, 253);
+}
+
+a.google:hover {
+    color: rgb(236, 56, 29)
+}
+
+a.linkedin:hover {
+    color: rgb(4, 117, 209);
+}
+
+a.instagram:hover {
+    color: rgb(107, 154, 192);
+}
