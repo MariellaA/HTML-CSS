@@ -1,0 +1,113 @@
+html {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1em 5em 3em 5em;
+    font-family: Georgia, serif;
+}
+
+header {
+    flex-basis: 100vw;
+}
+
+header h1 {
+    border-bottom: 1px solid black;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    gap: 4em;
+    margin-right: 6em;
+}
+
+article section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+
+.quote-div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quote-div p {
+    max-width: 50%;
+    margin-right: 2em;
+    flex-grow: 1;
+}
+
+.quote {
+    flex-basis: 40%;
+    flex-grow: 1;
+    color: #919191;
+    border-left: 2px solid #bfbfbf;
+    font-family: Georgia, serif;
+    font-style: italic;
+}
+
+.quote blockquote:nth-of-type(1) {
+    margin-top: 0;
+}
+
+.quote blockquote:nth-of-type(2) {
+    float: right;
+}
+
+
+p, .quote {
+    line-height: 1.5;
+}
+
+h2, h3 {
+    font-weight: 500;
+    margin: 0;
+}
+
+main {
+    flex-grow: 2;
+    flex-shrink: 1;
+}
+
+aside {
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+nav {
+    padding: 0;
+}
+
+a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    max-width: 15vw;
+    border: 2px solid black;
+    padding: 0.5em;
+    box-shadow: 1px 1px 15px #6b6b6b;
+}
+
+
+.first-image {
+    float: right;
+    margin: 0 0 1em 1em;
+}
+
+.second-image {
+    float: left;
+    margin: 0 1em 1em 0;
+}
