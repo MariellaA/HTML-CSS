@@ -1,0 +1,42 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 2em 5em;
+}
+
+header {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    display: flex;
+}
+
+h1 {
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-weight: 500;
+    font-family: Georgia;
+    /* font-size: 1em; */
+    /* letter-spacing: 0.5px; */
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-left: auto;
+    gap: 1em;
+    padding-right: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
+
+p {
+    line-height: 1.5;
+}
