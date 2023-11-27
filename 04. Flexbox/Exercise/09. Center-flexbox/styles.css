@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    max-width: 35%;
+    flex-shrink: 1;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 15px rgb(129, 129, 129);
+    border-radius: 7px;
+}
+
+h3 {
+    font-family: Georgia;
+    margin-bottom: 0;
+    padding-left: 1rem;
+}
+
+p {
+    margin-top: 0.5em;
+    font-family: sans-serif;
+    padding: 0 1rem 2rem 1rem;
+    line-height: 1.5;
+}
