@@ -1,0 +1,58 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+h2 {
+    margin-top: 1.5em;
+    margin-left: 14em;
+}
+
+.masonry {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    width: 50vw;
+    margin: 0 auto;
+}
+
+.masonry .card {
+    background-color: #ffffff;
+    width: 15vw;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    width: 50vw;
+    margin: 0 auto;
+}
+
+.flex .card {
+    background-color: #ffffff;
+    width: 15vw;
+}
+
+img {
+    width: 15vw;
+}
+
+section {
+    flex-direction: column;
+    width: 10vw;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+/* footer {
+    bottom: 100%;
+} */
